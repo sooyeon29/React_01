@@ -293,26 +293,26 @@
 // export default App
 /*-------------------------------------------------------------------*/
 
-// import React, { useState } from "react";
+import React, { useState } from "react";
 
-// const App = () => {
-//   const [value, setValue] = useState("")
+const App = () => {
+  const [value, setValue] = useState("")
 
-//   const onChangeHandler = (event) => {
-//     const inputValue = event.target.value
-//     setValue(inputValue)
-//   }
+  const onChangeHandler = (event) => {
+    const inputValue = event.target.value
+    setValue(inputValue)
+  }
 
-//   console.log(value)
+  console.log(value)
 
-//   return (
-//     <div>
-//       <input type='text' onChange={onChangeHandler} value={value}/>
-//     </div>
-//   )
-// }
+  return (
+    <div>
+      <input type='text' onChange={onChangeHandler} value={value}/>
+    </div>
+  )
+}
 
-// export default App
+export default App
 
 /*-----------------------------------------------------------------*/
 
