@@ -1,0 +1,8 @@
+/* layout */
+.layout{
+    border: 1px solid #ddd;
+    max-width: 1200px;
+    min-width: 800px;
+    margin: 10px auto auto auto;
+    padding: 10px 10px 40px 10px;
+  }
